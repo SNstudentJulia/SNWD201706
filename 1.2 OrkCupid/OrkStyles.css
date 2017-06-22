@@ -1,0 +1,21 @@
+body {
+    background-color: #ffd1e8;
+    }
+
+.myheaders {
+  color: #590009;
+}
+
+.image:hover {
+  border: 3px red solid;
+}
+
+.image {
+  border: 3px black dotted;
+  padding: 5px 10px;
+  margin: 10px 50px;
+}
+
+P {
+    color:#9b0c56;
+}

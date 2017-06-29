@@ -1,0 +1,110 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.2em;
+}
+
+h3 {
+    font-family: 'Sacramento', cursive;
+    font-size: 2.2em;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar-brand {
+    font-family: 'Sacramento', cursive;
+    font-size: 1em;
+}
+
+.space {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Carousel*/
+
+.item {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.carousel-inner {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.Ringel {
+    width: 600px;
+}
+
+/* Our Services*/
+
+.panel-title {
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+.panel-default {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.glyphicon {
+    float: right;
+}
+
+/* Make an Appointment */
+
+.inputfield {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    width: 60%;
+}
+
+#LongBox {
+    height: 167px;
+}
+
+#ButtonSend {
+    float: right;
+    clear: right;
+    margin-right: 25%;
+    height: 50px;
+    width: 100px;
+}
+
+.timetable {
+    float: left;
+    margin: 10px;
+
+    width: 60%;
+}
+
+/*FAQ*/
+
+#FAQ {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/*Footer*/
+
+#footer{
+    font-size: 0.7em;
+}
+
+#middled {
+    margin: auto;
+    width: 80%;
+}
+
+#moveright {
+    float: right;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+ }

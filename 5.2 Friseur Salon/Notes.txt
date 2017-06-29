@@ -1,0 +1,11 @@
+Header page width
+
+div carousel, centered, page width
+
+div three rows with image panels
+
+div two rows, one with text input + button, other with table
+
+div center page width, opening-panels
+
+Footer three rows

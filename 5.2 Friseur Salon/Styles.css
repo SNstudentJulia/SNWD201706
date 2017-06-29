@@ -67,6 +67,10 @@ h1 {
     height: 167px;
 }
 
+textarea {
+    resize: none;
+}
+
 #ButtonSend {
     float: right;
     clear: right;

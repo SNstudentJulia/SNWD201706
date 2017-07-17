@@ -13,16 +13,19 @@ while True:
     except ValueError:
         print "*"*30
         print "Please only use valid numbers!"
-
+        print "*" * 30
     choice = raw_input("Do you want to convert a new number? Yes/No ")
-    if choice == str("Yes") or choice == str("Y") or choice == str("y") or choice == str("yes"):
+    if choice.lower() in ("yes", "y"):
+        print "*" * 30
         print "Wonderful!"
         print "*" * 30
-    elif choice == str("No") or choice == str("N") or choice == str("n") or choice == str("no"):
+    elif choice.lower() in ("no", "n"):
+        print "*" * 30
         print "Thank you for your time. This program will now terminate. Goodbye!"
         print "*" * 30
         break
     else:
+        print "*" * 30
         print "Your entry is invalid. This program will now terminate. Goodbye!"
         print "*" * 30
         break

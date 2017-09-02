@@ -17,7 +17,7 @@ while True:
 print "*"*70
 print "The Daily Menu of My Restaurant:"
 
-menu_file = open("menu.txt", "w+")
+menu_file = open("menu.txt", "w+") # w, r, a
 menu_file.write("Daily Dishes:\n")
 for item in menu_dict:
     print "- " + item + ": " + menu_dict[item] + "$"
